@@ -16,13 +16,121 @@
       </div>
       <nav class="nav-list">
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Our Profile</a></li>
-          <li><a href="#">Portofolio</a></li>
-          <li><a href="#">Message Us</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#ourProfile">Our Profile</a></li>
+          <li><a href="#portofolio">Portofolio</a></li>
+          <li><a href="#message">Message Us</a></li>
         </ul>
       </nav>
     </header>
+
+    <section class="home" id="home">
+            <h1>Hi <span id="visitName"></span>, Welcome To Our Website!</h1>
+            <p>Find true satisfaction in every solution we build</p>
+    </section>
+    <section class="ourProfile" id="ourProfile">
+        <div class="profile-container">
+            <div class="profile-image">
+            <img src="assets/images/baner.png" alt="Profile Perusahaan">
+            </div>
+            <div class="profile-text">
+            <h2>Our Profile</h2>
+            <p>Xcode adalah perusahaan yang bergerak di bidang teknologi informasi, berfokus pada pengembangan website, aplikasi, serta solusi digital yang inovatif dan efisien.</p>
+            <h3>Visi</h3>
+            <p>Menjadi perusahaan teknologi terdepan yang menciptakan solusi digital berdampak global.</p>
+            <h3>Misi</h3>
+            <ul>
+                <li>Mengembangkan produk digital berkualitas dan mudah digunakan.</li>
+                <li>Mendorong inovasi yang relevan dengan kebutuhan masyarakat.</li>
+                <li>Membangun kolaborasi berkelanjutan dengan mitra strategis.</li>
+            </ul>
+            </div>
+        </div>
+    </section>
+    <section class="portofolio" id="portofolio">
+    <h2 class="section-title">Portofolio</h2>
     
+    <div class="portofolio-container">
+        <div class="card">
+        <img src="assets/images/porto1.png" alt="Project 1">
+        <h3>Website Company Profile</h3>
+        </div>
+        <div class="card">
+        <img src="assets/images/porto2.png" alt="Project 2">
+        <h3>E-Commerce App</h3>
+        </div>
+        <div class="card">
+        <img src="assets/images/porto3.png" alt="Project 3">
+        <h3>Dashboard Monitoring</h3>
+        </div>
+    </div>
+    </section>
+    <section class="message" id="message">
+        <h2>Message Us</h2>
+
+        <div id="messageWrapper">
+            <form id="messageForm">
+            <label>
+                Nama:<br />
+                <input type="text" name="name"/>
+            </label><br />
+
+            <label>
+                Email:<br />
+                <input type="email" name="email"/>
+            </label><br />
+
+            <label>
+                Nomor HP:<br />
+                <input type="tel" name="phone" />
+            </label><br />
+
+            <label>
+                Pesan:<br />
+                <textarea name="message" rows="4"></textarea>
+            </label><br />
+
+            <button type="submit">Submit</button>
+            </form>
+
+            <div id="infoBox">
+            <h3>Hasil Input:</h3>
+            <p><b>Nama:</b> <span id="resultName">-</span></p>
+            <p><b>Email:</b> <span id="resultEmail">-</span></p>
+            <p><b>Nomor HP:</b> <span id="resultPhone">-</span></p>
+            <p><b>Pesan:</b> <span id="resultMessage">-</span></p>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+            <h3>Xcode Company</h3>
+            <p>Trusted digital solutions for your future</p>
+            </div>
+
+            <div class="footer-links">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#ourProfile">Our Profile</a></li>
+                <li><a href="#portofolio">Portofolio</a></li>
+                <li><a href="#message">Message Us</a></li>
+            </ul>
+            </div>
+
+            <div class="footer-contact">
+            <h4>Contact</h4>
+            <p>Email: xcodecompany@gmail.com</p>
+            <p>Phone: +62 888-999-777</p>
+            <p>Address: Jl. Tekinologia No. 1, Jamaika</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Xcode Company. All rights reserved. |  Created by Rachmat</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
